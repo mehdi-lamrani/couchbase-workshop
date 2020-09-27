@@ -13,6 +13,7 @@ cd /Applications/Couchbase\ Server.app/Contents/Resources/couchbase-core/bin
 cd /opt/couchbase/bin
 ```
 
+- Lancez la commande suivante :
 <sub>*(./cbq au lieu de cbq si MacOS ou Linux)*</sub>
 ```
 cbq -e=http://127.0.0.1:8091
@@ -29,9 +30,13 @@ Enter Password:
 🗝
  ```
  
- Vous entrez dans la console cbq
+- Vous entrez dans la console cbq :
 ```
 cbq>
+```
+
+- Lancez la commande suivante
+```
 cbq> select * from `hello-bucket`
 ```
 

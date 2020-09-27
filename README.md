@@ -1,7 +1,7 @@
 ### Couchbase-Workshop
 
 Bienvenue à vous dans cette formation ! <br>
-Le but de ce worskhop de 3 jours est de découvrir, prendre en main, et se familiariser avec la base de données NoSQL Couchbase, <br>
+Le but de ce worskhop de 3 jours est de découvrir, prendre en main, et se familiariser avec la base de données NoSQL Couchbase,
 et d'en explorer les nombreuses fonctionnalités et possibilités.
 
 ### Pré-Requis 
