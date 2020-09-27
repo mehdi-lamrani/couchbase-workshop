@@ -20,3 +20,11 @@ Encore une fois, il manque les crédentiels. Cette fois-ci, le message est plus 
 ````
 curl -u admin:couchbase -v http://127.0.0.1:8093/query/service -d 'statement=SELECT * FROM `hello-bucket`'
 ````
+- *A vous de jouer : *
+
+En utilisant l'API REST, supprimez le bucket 'cli-bucket' que vous avez précédemment créé avec l'outil ligne de commande<br>
+Tentez de le Requêter le pour vérifier la bonne insertion des données. 
+
+
+- *Référence de l'API REST Bucket : *
+https://docs.couchbase.com/server/current/rest-api/rest-bucket-intro.html

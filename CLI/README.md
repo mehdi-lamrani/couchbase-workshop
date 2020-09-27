@@ -83,3 +83,11 @@ hello-bucket
  ramQuota: 104857600
  ramUsed: 4457360
 ```
+
+- *A vous de jouer : *
+
+Créez un bucket 'cli-bucket' avec l'outil ligne de commande<br>
+Il vous servira pour la suite de l'exercice
+
+- *Référence de la CLI : *
+https://docs.couchbase.com/server/current/cli/cli-intro.html

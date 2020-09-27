@@ -42,5 +42,11 @@ cbq> select * from `hello-bucket`
 
 Cette commande renvoie le contenu du bucket en question. 
 
+- *A vous de jouer : *
 
+Insérez des données à la volée dans le bucket 'cli-bucket' que vous avez précédemment créé avec l'outil ligne de commande<br>
+Requêtez à nouveau pour vérifier la bonne insertion des données. 
+
+- *Référence du shell CBQ :*
+https://docs.couchbase.com/server/current/tools/cbq-shell.html
 
