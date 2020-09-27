@@ -28,3 +28,14 @@ Ce message d'erreur n'est pas adapté. En réalité, la connection a été refus
 Enter Password:
 🗝
  ```
+ 
+ Vous entrez dans la console cbq
+```
+cbq>
+cbq> select * from `hello-bucket`
+```
+
+Cette commande renvoie le contenu du bucket en question. 
+
+
+
