@@ -17,17 +17,25 @@ curl -v http://127.0.0.1:8093/query/service -d 'statement=SELECT * FROM `hello-b
 -  "User does not have credentials to run SELECT queries on the hello-bucket bucket. Add role query_select on hello-bucket to allow the query to run."
 ````
 Encore une fois, il manque les crédentiels. Cette fois-ci, le message est plus explicite que dans le cas du shell CBQ.
+En rechanche la proposition de rajout de rôle n'est pas adéquate. Il suffit de rentrer les crédentiels.
 
 
-- Lancer la commande suivante : 
+- Lancer la commande suivante, en modifiant les crédentiels :
 
+Linux 
 ````
-curl -u admin:couchbase -v http://127.0.0.1:8093/query/service -d 'statement=SELECT * FROM `hello-bucket`'
+curl -u admin:couchbase -v http://127.0.0.1:8093/query/service -d 'statement=SELECT * FROM `cli-bucket`'
 ````
-- *A vous de jouer : *
+
+Windows: 
+````
+curl -u admin:couchbase -v http://10.0.0.4:8093/query/service -d statement="SELECT * FROM `cli-bucket`"
+```
+
+- *A vous de jouer :*
 
 En utilisant l'API REST, supprimez le bucket 'cli-bucket' que vous avez précédemment créé avec l'outil ligne de commande<br>
-Tentez de le Requêter le pour vérifier la bonne insertion des données. 
+Tentez de le Requêter le pour vérifier la bonne suppression des données. 
 
 
 - *Référence de l'API REST Bucket : *
