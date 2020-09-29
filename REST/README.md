@@ -4,6 +4,10 @@ Si Windows << Version 10 : <br>
 téléchanrger l'outil suivant :
 https://curl.haxx.se/windows/dl-7.72.0_3/curl-7.72.0_3-win64-mingw.zip
 
+- Remarquez que le port a changé : On est sur le 8093 et non plus sur le 8091<br>
+En effet, sur le port 8091, tourne le serveur **WEB** HTTP de couchbase<br>
+Le port 8093, en revanche, est quant à lui dédié au serveur REST
+
 - Lancer la commande suivante : 
 ````
 curl -v http://127.0.0.1:8093/query/service -d 'statement=SELECT * FROM `hello-bucket`'
